@@ -1,8 +1,15 @@
 # fakestore-react
 
-SPA creada con Vite, React 19 y TypeScript para consumir productos desde Fake Store API.
+SPA desarrollada con **Vite + React 19 + TypeScript** para consumir productos desde la API publica de Fake Store.
 
-Autor: Junior Cueva Fabian
+## Autor
+
+Junior Cueva Fabian
+
+## Descripcion
+
+Este proyecto muestra una tienda basica de productos usando una API publica.  
+La aplicacion permite navegar entre paginas, visualizar productos, ver productos destacados en Home y agregar o quitar productos de favoritos usando `localStorage`.
 
 ## Tecnologias usadas
 
@@ -16,58 +23,40 @@ Autor: Junior Cueva Fabian
 - LocalStorage
 - Vercel
 
-## Funcionalidades
+## API utilizada
 
-- Rutas principales: Home, Productos y Contact.
-- Consumo de API publica: `https://fakestoreapi.com/products`.
-- Listado de productos con titulo, precio, imagen, categoria y descripcion corta.
-- Productos destacados en Home.
-- Favoritos guardados en localStorage.
-- Notificaciones al agregar o quitar favoritos.
-- Loader durante la carga de productos.
 
-## Ejecutar el proyecto
+https://fakestoreapi.com/products
 
+## LEVANTAMOS NUESTRO PROYECTO 
+![LEVANTAMOS EL PROYECTO](image.png)
+
+## AGREGAMOS RUTAS PRINCIPALES : home-products-contct
+![HOME -PRODUCTS-CONTACT](image-1.png)
+
+## CONSUMIMOS EL API
+![CONSUMIMOS EL API](image-5.png)
+
+## MUESTRA DE PRODUCTOS DESTACADOS EN EL HOME 
+![PRODUCTOS DESTACADOS](image-3.png)
+
+## AGREGAMOS EL APARTADO AGREGAR  FAVORITO  DENTRO DEL PRODUCTO 
+![APARTADO AGREGAR  FAVORITO](image-4.png)
+
+
+## PASOS PARA EJECUTAR EL PROYECTO 
+
+```text
+Instalacion
+Clonar el repositorio:
+
+git clone URL_DEL_REPOSITORIO
+Entrar al proyecto:
+
+cd fakestore-react
 Instalar dependencias:
 
-```bash
 npm install
-```
+Ejecutar en desarrollo:
 
-Levantar servidor local:
-
-```bash
 npm run dev
-```
-
-Crear build de produccion:
-
-```bash
-npm run build
-```
-
-Previsualizar build:
-
-```bash
-npm run preview
-```
-
-## Rutas
-
-- `/` Home
-- `/entities` Productos
-- `/contact` Contact
-
-## Deploy
-
-Enlace del deploy: pendiente
-
-## Video
-
-Enlace del video: pendiente
-
-## Capturas
-
-![Home](image-1.png)
-![Productos](image-5.png)
-![Favoritos](image-4.png)
