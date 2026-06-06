@@ -3,3 +3,6 @@
 
 ## agrega rutas principales de la aplicacion : home-products-contct
 ![HOME -PRODUCTS-CONTACT](image-1.png)
+
+## consumo de  api y muestra de productos
+![consumo de api](image-2.png)
