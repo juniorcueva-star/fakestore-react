@@ -44,13 +44,20 @@ https://fakestoreapi.com/products
 ![APARTADO AGREGAR  FAVORITO](image-4.png)
 
 
+# Deploy
+
+Enlace del deploy:
+
+https://fakestore-react-beta.vercel.app
+
+
 ## PASOS PARA EJECUTAR EL PROYECTO 
 
-```text
-Instalacion
+
+### Instalacion
 Clonar el repositorio:
 
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/juniorcueva-star/fakestore-react
 Entrar al proyecto:
 
 cd fakestore-react
