@@ -17,12 +17,12 @@ export function Contact() {
 
             <div>
               <span>Repositorio</span>
-              <strong>GitHub pendiente</strong>
+              <strong>https://github.com/juniorcueva-star/fakestore-react</strong>
             </div>
 
             <div>
               <span>Deploy</span>
-              <strong>Vercel pendiente</strong>
+              <strong>https://fakestore-react-beta.vercel.app</strong>
             </div>
           </div>
         </div>

@@ -55,10 +55,12 @@ https://fakestore-react-beta.vercel.app
 
 
 ### Instalacion
-Clonar el repositorio:
+## Clonar el repositorio:
 
 git clone https://github.com/juniorcueva-star/fakestore-react
-Entrar al proyecto:
+
+
+## Entrar al proyecto:
 
 cd fakestore-react
 Instalar dependencias:
