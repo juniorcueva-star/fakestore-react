@@ -156,6 +156,34 @@ select {
   font-size: 1.125rem;
 }
 
+.favorite-button {
+  width: 100%;
+  border: 0;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  background: #111827;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.favorite-button:hover {
+  background: #2563eb;
+}
+
+.notification {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 10;
+  border-radius: 8px;
+  padding: 0.875rem 1rem;
+  color: #ffffff;
+  background: #111827;
+  box-shadow: 0 12px 30px rgb(15 23 42 / 0.18);
+  font-weight: 700;
+}
+
 .error-message {
   color: #b91c1c;
   font-weight: 700;

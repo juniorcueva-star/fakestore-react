@@ -1,8 +1,10 @@
 import { ProductCard } from "../components/ProductCard";
+import { useFavorites } from "../hooks/useFavorites";
 import { useProducts } from "../hooks/useProducts";
 
 export function Entities() {
   const { products, isLoading, error } = useProducts();
+  const { isFavorite, notification, toggleFavorite } = useFavorites();
 
   return (
     <main className="page">
@@ -15,10 +17,17 @@ export function Entities() {
       {!isLoading && !error && (
         <section className="products-grid">
           {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard
+              key={product.id}
+              product={product}
+              isFavorite={isFavorite(product.id)}
+              onToggleFavorite={toggleFavorite}
+            />
           ))}
         </section>
       )}
+
+      {notification && <div className="notification">{notification}</div>}
     </main>
   );
 }

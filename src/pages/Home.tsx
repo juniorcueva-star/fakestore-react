@@ -1,8 +1,10 @@
 import { ProductCard } from "../components/ProductCard";
+import { useFavorites } from "../hooks/useFavorites";
 import { useProducts } from "../hooks/useProducts";
 
 export function Home() {
   const { products, isLoading, error } = useProducts();
+  const { isFavorite, notification, toggleFavorite } = useFavorites();
   const featuredProducts = products.slice(0, 4);
 
   return (
@@ -15,7 +17,7 @@ export function Home() {
       <section className="featured-section">
         <div className="section-heading">
           <h2>Productos destacados</h2>
-          <p>Una muestra rápida de productos disponibles.</p>
+          <p>Una muestra rapida de productos disponibles.</p>
         </div>
 
         {isLoading && <p>Cargando productos...</p>}
@@ -25,11 +27,18 @@ export function Home() {
         {!isLoading && !error && (
           <div className="products-grid">
             {featuredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard
+                key={product.id}
+                product={product}
+                isFavorite={isFavorite(product.id)}
+                onToggleFavorite={toggleFavorite}
+              />
             ))}
           </div>
         )}
       </section>
+
+      {notification && <div className="notification">{notification}</div>}
     </main>
   );
 }
