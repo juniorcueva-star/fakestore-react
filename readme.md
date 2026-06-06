@@ -7,10 +7,12 @@
 ![HOME -PRODUCTS-CONTACT](image-1.png)
 
 ## CONSUMIMOS EL API
-![consumo de api](image-2.png)
+![CONSUMIMOS EL API](image-5.png)
 
 ## MUESTRA DE PRODUCTOS DESTACADOS EN EL HOME 
 ![PRODUCTOS DESTACADOS](image-3.png)
 
 ## AGREGAMOS EL APARTADO AGREGAR  FAVORITO  DENTRO DEL PRODUCTO 
 ![APARTADO AGREGAR  FAVORITO](image-4.png)
+
+## agrega componentes base con shadcn ui
